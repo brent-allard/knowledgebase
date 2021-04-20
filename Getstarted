@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 file_path = 'path_to_data.csv'
 
 # read in data 
-data = pd.read_csv(file_path)
+data = pd.read_csv(file_path, encoding=('ISO-8859-1'),low_memory= False)
 
 
 ############################################################################## 
